@@ -1,0 +1,15 @@
+// Maverick sample program
+int age = 20;
+int limit = 18;
+
+if (age >= limit) {
+    print("adult");
+} else {
+    print("minor");
+}
+
+while (age < 25) {
+    age = age + 1;
+}
+
+int bad = 5 @ 3;
